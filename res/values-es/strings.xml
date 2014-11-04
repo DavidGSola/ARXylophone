@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ARXylophone</string>
+    <string name="app_description">ARXylophone, un xilófono basado en realidad aumentada</string>
+    
+    <string name="titulo_arx">ARXylophone</string>
+   
+    <string name="boto_menu_help">Ayuda</string>
+    <string name="boton_menu_start">Start</string>
+    <string name="boton_menu_help">Ayuda</string>
+    <string name="boton_menu_salir">Salir</string>
+      
+    <string name="modo_record">Nueva Canción</string>
+    <string name="modo_libre">Modo Libre</string>
+    
+    <string name="contextual_crear_cancion_titulo">NOMBRE</string>
+    <string name="contextual_crear_cancion_mensaje">Introduzca un nombre para la canción</string>
+    
+    <string name="contextual_aceptar">Aceptar</string>
+    <string name="contextual_cancelar">Cancelar</string>
+    
+    <string name="contextual_borrar_cancion_mensaje">Desea borrar la canción </string>
+    
+    <string name="guardar_cancion">¿Desea guardar la canción?</string>
+    <string name="salir_cancion">¿Desea salir del modo actual?</string>
+    
+    <string name="toast_enfoque_manual_fallo">Imposible enfocar la imagen.</string>
+    <string name="toast_flash_on">Flash activado.</string>
+    <string name="toast_flash_off">Flash desactivado.</string>
+    <string name="toast_flash_fallo">Imposible activar flash.</string>
+    <string name="toast_enfoque_on">Enfoque manual activado.</string>
+    <string name="toast_enfoque_off">>Enfoque manual desactivado.</string>
+    <string name="toast_enfoque_fallo">Imposible cambiar a modo enfoque manual.</string>
+    <string name="toast_autoenfoque_on">Modo autoenfoque activado.</string>
+    <string name="toast_autoenfoque_off">Modo autoenfoque desactivado.</string>
+    <string name="toast_autoenfoque_fallo">Imposible cambiar a modo autoenfoque la imagen.</string>
+    <string name="toast_camara_fallo">Cámara frontal no disponible.</string>
+   
+    <string name="content_desc_vuforia_logo">Vuforia Logo</string>
+    <string name="content_desc_vuforia_background">Vuforia Background</string>
+    <string name="menu_flash_on">Flash On</string>
+    <string name="menu_flash_off">Flash Off</string>
+    <string name="menu_contAutofocus_on">Cont. Autofocus On</string>
+    <string name="menu_contAutofocus_off">Cont. Autofocus Off</string>
+    <string name="menu_contCameraFront">Camera Front</string>
+    <string name="menu_contCameraBack">Camera Back</string>
+    <string name="menu_camera_title">Options</string>
+    <string name="texto_detectando">Detectando</string>
+    <string name="boton_salir">Salir</string>
+    <string name="boton_opciones">Opciones</string>
+    <string name="boton_reiniciar">Reiniciar</string>
+    <string name="texto_score">0</string>
+    <string name="texto_titulo_score">SCORE</string>
+    <string name="text_header">Mis canciones</string>
+    <string name="text_item">Nombre</string>
+    <string name="score_item"> </string>
+    
+    <string name="seleccionar_mano">¿Con que mano vas a jugar?</string>
+    
+    <string name="splash_logo">Logo de Qualcomm</string>
+    
+    <string name="licencia_titulo">Contrato de licencia</string>
+    <string name="licencia_subtitulo">Si pulsa en el botón "Continuar aceptarás que has leído y aceptado las siguientes declaraciones:</string>
+    <string name="licencia_1">QUALCOMM CONNECTED EXPERIENCES, INC. ("QCE"), sus afiliados y proveedores de servicios recopilan, almacenan y usan cierto tipo de datos anónimos.</string>
+    <string name="licencia_2">Usar una aplicación basada en el uso de la cámara es peligroso mientras conduces, andas o cualquier otro tipo de actividad al ser objeto de distraccion en situaciones reales.</string>
+    <string name="licencia_boton">Continuar</string>
+   
+    <string name="ayuda_imagen_descripcion">Imagen de ayuda para jugar con ARXylophone.</string>
+    <string name="ayuda_titulo">Instrucciones</string>
+    <string name="ayuda_subtitulo">Pasos para un correcto funcionamiento de ARXylophone:</string>
+    <string name="ayuda_paso1">1. Descargue e imprima la plantilla.</string>
+    <string name="ayuda_enlace">&lt;a href="http://i.imgur.com/mOPQP3M.jpg"&gt;Plantilla&lt;/a&gt;</string>
+    <string name="ayuda_paso2">2. Inicie cualquier tipo de partida.</string>
+    <string name="ayuda_paso3">3. Enfoque con la cámara la plantilla imprimida, tal y como se puede ver en la siguiente imagen, hasta que sea detectada.</string>
+    <string name="ayuda_paso4">4. Toque las diferentes teclas en el papel ¡En su móvil sonará la nota correspondiente!</string>
+
+</resources>

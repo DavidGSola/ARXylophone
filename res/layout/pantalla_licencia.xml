@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F0F0"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/actividad_licencia_titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="18dp"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/gray"
+        android:textSize="20sp"
+        android:text="@string/licencia_titulo"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/boton_continuar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal|center_vertical"
+        android:scaleType="fitXY"
+        android:text="@string/licencia_boton" />
+    
+    <TextView
+        android:id="@+id/actividad_licencia_subtitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/actividad_licencia_titulo"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="15dp"
+        android:text="@string/licencia_subtitulo"
+        android:textColor="@color/gray"
+        android:textSize="15sp" />
+    
+    <TextView
+        android:id="@+id/actividad_licencia_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/actividad_licencia_subtitulo"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:text="@string/licencia_1"
+        android:textColor="@color/gray" />
+
+    <TextView
+        android:id="@+id/actividad_licencia_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/actividad_licencia_1"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:text="@string/licencia_2"
+        android:textColor="@color/gray" />
+
+</RelativeLayout>

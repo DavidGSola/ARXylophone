@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/camera_overlay_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+		<!-- <ImageView
+		    android:id="@+id/caca"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+		    android:src="@drawable/background_prueba" />
+     -->
+        <ProgressBar
+            android:id="@+id/loading_indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" />
+        
+        <TextView android:id="@+id/textoDetectando"
+        	android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+	        android:layout_above="@+id/loading_indicator"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="50sp"
+            android:text="@string/texto_detectando" />
+        
+		<ImageButton 
+           	android:id="@+id/botonOpciones"
+           	android:layout_width="50dp"
+           	android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true" 
+           	android:background="@null"
+          	android:contentDescription="@string/boton_opciones"
+           	android:src="@drawable/selector_opciones" 
+           	android:onClick="botonOpciones"
+           	android:scaleType="fitXY" />
+		
+		<ImageButton 
+            android:id="@+id/botonSalir"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+           	android:layout_alignParentRight="true"
+           	android:layout_alignParentTop="true"
+            android:background="@null"
+            android:contentDescription="@string/boton_salir"
+            android:src="@drawable/selector_salir" 
+            android:onClick="botonSalir"
+            android:scaleType="fitXY" />
+    
+</RelativeLayout>

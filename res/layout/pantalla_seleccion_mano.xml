@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:background="#F0F0F0"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/actividad_ayuda_titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:textColor="@color/gray"
+        android:textSize="25sp"
+        android:text="@string/seleccionar_mano"
+        android:textStyle="bold" />
+    
+    
+    <LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:background="#F0F0F0"
+	    android:gravity="center"
+	    android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/boton_mano_izquierda"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_margin="12dp"
+            android:gravity="center_horizontal|center_vertical"
+	        android:contentDescription="@string/boton_menu_help"
+            android:src="@drawable/selector_mano_izq"
+            android:background="@null"
+            android:scaleType="fitXY"/>
+	    
+	    <ImageButton
+	        android:id="@+id/boton_mano_derecha"
+	        android:layout_width="120dp"
+	        android:layout_height="120dp"
+            android:layout_margin="12dp"
+	        android:gravity="center_horizontal|center_vertical"
+	        android:contentDescription="@string/boton_menu_start"
+            android:src="@drawable/selector_mano_der"
+            android:background="@null"
+            android:scaleType="fitXY" />
+	    	    
+	</LinearLayout>
+	 
+</LinearLayout>

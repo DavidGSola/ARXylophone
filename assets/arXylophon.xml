@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="ARXylophoneV4" size="1500.000000 1050.000000"  > 
+      <VirtualButton name="C" rectangle="-675 -407 -515 -200" enabled="true" /> 
+      <VirtualButton name="C" rectangle="-675 -200 -515 0" enabled="true" /> 
+      <VirtualButton name="C" rectangle="-675 0 -515 200" enabled="true" /> 
+      <VirtualButton name="C" rectangle="-675 200 -515 407" enabled="true" /> 
+      
+      <VirtualButton name="D" rectangle="-500 -377 -350 -188" enabled="true" />  
+      <VirtualButton name="D" rectangle="-500 -188 -350 0" enabled="true" />  
+      <VirtualButton name="D" rectangle="-500 	0 -350 188" enabled="true" />  
+      <VirtualButton name="D" rectangle="-500 188 -350 377" enabled="true" />  
+        
+      <VirtualButton name="E" rectangle="-335 -360 -175 -180" enabled="true" />   
+      <VirtualButton name="E" rectangle="-335 -180 -175 0" enabled="true" />   
+      <VirtualButton name="E" rectangle="-335 0 -175 180" enabled="true" />   
+      <VirtualButton name="E" rectangle="-335 180 -175 360" enabled="true" />   
+      
+      <VirtualButton name="F" rectangle="-160 -330 0 -165" enabled="true" />   
+      <VirtualButton name="F" rectangle="-160 -165 0 0" enabled="true" />   
+      <VirtualButton name="F" rectangle="-160 0 0 165" enabled="true" />   
+      <VirtualButton name="F" rectangle="-160 165 0 330" enabled="true" />   
+      
+      <VirtualButton name="G" rectangle="0 -305 160 -152" enabled="true" />         
+      <VirtualButton name="G" rectangle="0 -152 160 0" enabled="true" />         
+      <VirtualButton name="G" rectangle="0 0 160 152" enabled="true" />         
+      <VirtualButton name="G" rectangle="0 152 160 305" enabled="true" />   
+      
+      <VirtualButton name="A" rectangle="175 -285 335 -142" enabled="true" />  
+      <VirtualButton name="A" rectangle="175 -142 335 0" enabled="true" />  
+      <VirtualButton name="A" rectangle="175 0 335 142" enabled="true" />  
+      <VirtualButton name="A" rectangle="175 142 335 285" enabled="true" />  
+      .
+      <VirtualButton name="B" rectangle="350 -265 500 -130" enabled="true" />   
+      <VirtualButton name="B" rectangle="350 -130 500 0" enabled="true" /> 
+      <VirtualButton name="B" rectangle="350 0 500 130" enabled="true" /> 
+      <VirtualButton name="B" rectangle="350 130 500 265" enabled="true" /> 
+      
+      <VirtualButton name="c" rectangle="515 -270 675 -120" enabled="true" />
+      <VirtualButton name="c" rectangle="515 -120 675 0" enabled="true" />
+      <VirtualButton name="c" rectangle="515 0 675 120" enabled="true" />
+      <VirtualButton name="c" rectangle="515 120 675 270" enabled="true" />
+    </ImageTarget>
+  </Tracking>
+</QCARConfig>

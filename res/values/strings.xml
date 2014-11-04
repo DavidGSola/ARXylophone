@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ARXylophone</string>
+    <string name="app_description">ARXylophone, un xilófono basado en realidad aumentada</string>
+    
+    <string name="titulo_arx">ARXylophone</string>
+   
+    <string name="boto_menu_help">Help</string>
+    <string name="boton_menu_start">Start</string>
+    <string name="boton_menu_help">Help</string>
+    <string name="boton_menu_salir">Exit</string>
+    
+    <string name="modo_record">New Song</string>
+    <string name="modo_libre">Free Mode</string>
+    
+    <string name="contextual_crear_cancion_titulo">NAME</string>
+    <string name="contextual_crear_cancion_mensaje">Enter a name for the song</string>
+    
+    <string name="contextual_aceptar">Accept</string>
+    <string name="contextual_cancelar">Cancel</string>
+    
+    <string name="contextual_borrar_cancion_mensaje">Do you want to delete the song </string>
+    
+    <string name="guardar_cancion">Do you want to save the song?</string>
+    <string name="salir_cancion">Do you want to exit?</string>
+    
+    <string name="toast_enfoque_manual_fallo">Impossible to focus the image.</string>
+    <string name="toast_flash_on">Flash activated.</string>
+    <string name="toast_flash_off">Flash deactivated.</string>
+    <string name="toast_flash_fallo">Impossible to activate flash.</string>
+    <string name="toast_enfoque_on">Manual focus mode activated.</string>
+    <string name="toast_enfoque_off">Manual focus mode deactivated.</string>
+    <string name="toast_enfoque_fallo">Impossible to change to manual focus mode.</string>
+    <string name="toast_autoenfoque_on">Autofocus activated.</string>
+    <string name="toast_autoenfoque_off">Autofocus deactivated.</string>
+    <string name="toast_autoenfoque_fallo">Impossible to change to autofucos mode.</string>
+    <string name="toast_camara_fallo">Camera front not available.</string>
+   
+    <string name="content_desc_vuforia_logo">Vuforia Logo</string>
+    <string name="content_desc_vuforia_background">Vuforia Background</string>
+    <string name="menu_flash_on">Flash On</string>
+    <string name="menu_flash_off">Flash Off</string>
+    <string name="menu_contAutofocus_on">Cont. Autofocus On</string>
+    <string name="menu_contAutofocus_off">Cont. Autofocus Off</string>
+    <string name="menu_contCameraFront">Camera Front</string>
+    <string name="menu_contCameraBack">Camera Back</string>
+    <string name="menu_camera_title">Options</string>
+    <string name="texto_detectando">Detecting</string>
+    <string name="boton_salir">Exit</string>
+    <string name="boton_opciones">Options</string>
+    <string name="boton_reiniciar">Reset</string>
+    <string name="texto_score">0</string>
+    <string name="texto_titulo_score">SCORE</string>
+    <string name="text_header">My Songs</string>
+    <string name="text_item">Name</string>
+    <string name="score_item"> </string>
+    
+    <string name="seleccionar_mano">Which hand will you use?</string>
+    
+    <string name="splash_logo">Qualcomms Logo</string>
+    
+    <string name="licencia_titulo">License Agreement</string>
+    <string name="licencia_subtitulo">If you press the button "Continue" you will accept that you have read and accepted the following statements:</string>
+    <string name="licencia_1">QUALCOMM CONNECTED EXPERIENCES, INC. ("QCE"), its affiliates and service providers collect, store and use certain types of anonymous data.</string>
+    <string name="licencia_2">Using a camera based application is dangerous while driving, walking, or otherwise by being distracted or disoriented from real world situations</string>
+    <string name="licencia_boton">Continue</string>
+   
+    <string name="ayuda_imagen_descripcion">Image that help to play ARXylophone.</string>
+    <string name="ayuda_titulo">Instructions</string>
+    <string name="ayuda_subtitulo">Steps to use ARXylophone in the right way:</string>
+    <string name="ayuda_paso1">1. Download and print the template.</string>
+    <string name="ayuda_enlace">&lt;a href="http://i.imgur.com/mOPQP3M.jpg"&gt;Template&lt;/a&gt;</string>
+    <string name="ayuda_paso2">2. Start any game mode.</string>
+    <string name="ayuda_paso3">3. Use the camera to focus the printed template until it would be detected.</string>
+    <string name="ayuda_paso4">4. Touch the keys on the paper. The note will sound on yout smartphone!</string>
+
+</resources>

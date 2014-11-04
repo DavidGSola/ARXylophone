@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F0F0"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/actividad_ayuda_titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="18dp"
+        android:textColor="@color/gray"
+        android:textSize="20sp"
+        android:text="@string/ayuda_titulo"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/actividad_ayuda_subtitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="18dp"
+        android:textSize="15sp"
+        android:textColor="@color/gray"
+        android:text="@string/ayuda_subtitulo" />
+    
+    <TextView
+        android:id="@+id/actividad_ayuda_paso1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:textColor="@color/gray"
+        android:text="@string/ayuda_paso1" />
+    
+    <TextView
+        android:id="@+id/actividad_ayuda_enlace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="15dp"
+        android:textColor="@color/holo_light_blue"
+        android:text="@string/ayuda_enlace" />
+    
+    <TextView
+        android:id="@+id/actividad_ayuda_paso2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:textColor="@color/gray"
+        android:text="@string/ayuda_paso2" />
+    
+    <TextView
+        android:id="@+id/actividad_ayuda_paso3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:textColor="@color/gray"
+        android:text="@string/ayuda_paso3" />
+    
+    <ImageView 
+        android:id="@+id/actividad_ayuda_imagen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:src="@drawable/actividad_ayuda_imagen"
+        android:contentDescription="@string/ayuda_imagen_descripcion"/>
+    
+    <TextView
+        android:id="@+id/actividad_ayuda_paso4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:textColor="@color/gray"
+        android:text="@string/ayuda_paso4" />
+    
+
+</LinearLayout>
