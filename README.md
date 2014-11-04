@@ -1,5 +1,5 @@
 #ARXylophone
-
+![](/media/titulo.png)
 TFG en el Grado de Ingeniería Informática: ARXylophone, un xilófono basado en realidad aumentada
 
 ## ¿Qué es ARXylophone?
@@ -24,6 +24,8 @@ Además, cuenta con tres modos de juego:
 
 Para poder utilizar esta aplicación es necesario imprimir (o utilizarlo desde la propia pantalla del PC) la siguiente imagen:
 
+![](/media/plantilla.jpeg)
+
 [Plantilla](http://imgur.com/mOPQP3M)
 
 ## Desarrollo
@@ -31,3 +33,7 @@ Para poder utilizar esta aplicación es necesario imprimir (o utilizarlo desde l
 ARXylophone ha sido desarrollado para Android utilizando el SDK Vuforia de realidad aumentada. Esta aplicación está desarrollada en Java y C++ utilizado el NDK de Android para la comunicación entre ambos lenguajes. 
 
 En C++ se ha desarrollado el núcleo de la aplicación con las llamadas al motor de realidad aumentada y todo lo relacionado con la parte gráfica, desarrollada utilizando OpenGL. Gracias a esto, se podría exportar está aplicación a iOS teniendo que reprogramar unicamente la parte de interfaz de usuario.
+
+## Licencia
+
+Licencia Apache 2.0
