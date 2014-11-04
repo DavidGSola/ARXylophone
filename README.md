@@ -2,6 +2,11 @@
 ![](/media/titulo.png)
 TFG en el Grado de Ingeniería Informática: ARXylophone, un xilófono basado en realidad aumentada
 
+## Install
+
+1. Copy the folder /build that you can get with the Vuforia SDK for Android (last version checked: Vuforia 3.0.9)
+2. Execute ndk-build on the cmd (into jni folder)
+
 ## ¿Qué es ARXylophone?
 
 ARXylophone es un juego de corte infantil cuyo fin es permitir a los más pequeños de la casa tocar un xilófono impreso en un papel como si fuese un xilófono real. Utilizando la cámara del dispositivo Android, la aplicación reconocerá que tecla está siendo tocada en el papel impreso y sonará en el smartphone la nota correspondiente.
