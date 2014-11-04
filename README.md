@@ -4,8 +4,8 @@ TFG en el Grado de Ingeniería Informática: ARXylophone, un xilófono basado en
 
 ## Install
 
-1. Copy the folder /build that you can get with the Vuforia SDK for Android (last version checked: Vuforia 3.0.9)
-2. Execute ndk-build on the cmd (into jni folder)
+> 1. Copy the folder /build that you can get with the Vuforia SDK for Android (last version checked: Vuforia 3.0.9)
+> 2. Execute ndk-build on the cmd (into jni folder)
 
 ## ¿Qué es ARXylophone?
 
