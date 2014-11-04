@@ -28,7 +28,7 @@
 #include <QCAR/VirtualButtonResult.h>
 #include <QCAR/DataSet.h>
 
-#include "QCARTexture.h"
+#include "Textura.h"
 #include "CuboShaders.h"
 #include "Cubo.h"
 #include "HitRenderer.h"
@@ -36,12 +36,7 @@
 /**
  * Clase Utils dada por Vuforia
  */
-#include "QCARUtils.h"
-
-/**
- * Clase Math dada por Vuforia
- */
-#include "QCARMath.h"
+#include "Utils.h"
 
 #ifdef __cplusplus
 extern "C"
@@ -103,7 +98,7 @@ int numTexturas                = 0;
 /**
  * Array de punteros a las texturas
  */
-QCARTexture** texturas              = 0;
+Textura** texturas              = 0;
 
 /**
  * ID del programa del Shader

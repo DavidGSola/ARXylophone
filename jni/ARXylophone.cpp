@@ -233,12 +233,12 @@ Java_coreXilofono_ARXRenderer_renderizarFrame(JNIEnv *env, jobject obj)
         const QCAR::Trackable& trackable = trackableResult->getTrackable();
 
         // Se inicializa la matriz Model View
-        modelViewMatrix = QCARMath::Matrix44FIdentity();
+        modelViewMatrix = Utils::Matrix44FIdentity();
 			
 		// Seteamos la matriz Model View Projection como resultado
         // de multiplicar la matriz de Proyección y la Model View
         QCAR::Matrix44F modelViewProjection;
-        QCARUtils::multiplyMatrix(&projectionMatrix.data[0],
+        Utils::multiplyMatrix(&projectionMatrix.data[0],
                                     &modelViewMatrix.data[0],
                                     &modelViewProjection.data[0]);
 
@@ -323,7 +323,7 @@ Java_coreXilofono_ARXylophoneBase_iniciarAplicacionNativa( JNIEnv* env, jobject 
 
     // Obtener el número de texturas llamando al método Java
     numTexturas = env->CallIntMethod(obj, metodoGetNumeroTexturas);
-    texturas = new QCARTexture*[numTexturas];
+    texturas = new Textura*[numTexturas];
 
     // Crear las texturas
     for (int i=0; i<numTexturas; i++)
@@ -335,7 +335,7 @@ Java_coreXilofono_ARXylophoneBase_iniciarAplicacionNativa( JNIEnv* env, jobject 
             return;
         }
 
-        texturas[i] = QCARTexture::create(env, textureObject);
+        texturas[i] = Textura::create(env, textureObject);
     }
 }
 
@@ -455,7 +455,7 @@ Java_coreXilofono_ARXRenderer_iniciarRenderizado(JNIEnv* env, jobject obj)
 {
 	// Se inicia la matriz de proyección a la matriz identidad
 	// para que todo lo que se dibuje sea relativo a la pantalla
-	projectionMatrix = QCARMath::Matrix44FIdentity();
+	projectionMatrix = Utils::Matrix44FIdentity();
 
     // Se define el ClearColor de OpenGL
     glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
@@ -479,7 +479,7 @@ Java_coreXilofono_ARXRenderer_iniciarRenderizado(JNIEnv* env, jobject obj)
     }
 
     // Crear el Shader
-    shaderProgramID     = QCARUtils::createProgramFromBuffer(cubeMeshVertexShader, cubeFragmentShader);
+    shaderProgramID     = Utils::createProgramFromBuffer(cubeMeshVertexShader, cubeFragmentShader);
 
     // Obtener las localizaciones de los atributos que se encuentran en el programa del Shader
     vertexHandle        = glGetAttribLocation(shaderProgramID, "vertexPosicion");
@@ -613,8 +613,8 @@ void renderizarCubo(float* transform, float valorOpacidad)
 {
 	// Obtenemos la matriz de proyección Model View (pasar a coordenadas de pantalla)
     QCAR::Matrix44F modelViewProjection, objectMatrix;
-    QCARUtils::multiplyMatrix(&modelViewMatrix.data[0], transform, &objectMatrix.data[0]);
-    QCARUtils::multiplyMatrix(&projectionMatrix.data[0], &objectMatrix.data[0], &modelViewProjection.data[0]);
+    Utils::multiplyMatrix(&modelViewMatrix.data[0], transform, &objectMatrix.data[0]);
+    Utils::multiplyMatrix(&projectionMatrix.data[0], &objectMatrix.data[0], &modelViewProjection.data[0]);
 
     // Modificamos el valor de las variables uniformes
     glUniformMatrix4fv(mvpMatrixHandle, 1, GL_FALSE, (GLfloat*)&modelViewProjection.data[0]);
@@ -630,7 +630,7 @@ void procesarAnimaciones(double diferenciaMs)
 	// Iterar sobre los Hits no tocados
 	for(int i=0; i<vectorHit.size(); i++)
 	{
-		QCAR::Matrix44F transform = QCARMath::Matrix44FIdentity();
+		QCAR::Matrix44F transform = Utils::Matrix44FIdentity();
 		float* transformPtr = &transform.data[0];
 
 		// Si el Hit no ha terminado su animación
@@ -640,10 +640,10 @@ void procesarAnimaciones(double diferenciaMs)
 			vectorHit[i]->animation(diferenciaMs);
 
 			// Setear la posición
-			QCARUtils::translatePoseMatrix(vectorHit[i]->getPosicionX(),vectorHit[i]->getPosicionY(), 0.0f, transformPtr);
+			Utils::translatePoseMatrix(vectorHit[i]->getPosicionX(),vectorHit[i]->getPosicionY(), 0.0f, transformPtr);
 
 			// Setear la escala
-			QCARUtils::scalePoseMatrix(0.11f, 0.11f, 0.0f, transformPtr);
+			Utils::scalePoseMatrix(0.11f, 0.11f, 0.0f, transformPtr);
 
 			// Setear la textura a usar
 			glBindTexture(GL_TEXTURE_2D, vectorHit[i]->getTextura()->mTextureID);
@@ -663,7 +663,7 @@ void procesarAnimaciones(double diferenciaMs)
 	// Iterar sobre los Hits tocados
 	for(int i=0; i<vectorHitDone.size(); i++)
 	{
-		QCAR::Matrix44F transform = QCARMath::Matrix44FIdentity();
+		QCAR::Matrix44F transform = Utils::Matrix44FIdentity();
 		float* transformPtr = &transform.data[0];
 
 		// Si el Hit no ha terminado su animación
@@ -673,10 +673,10 @@ void procesarAnimaciones(double diferenciaMs)
 			vectorHitDone[i]->animation(diferenciaMs);
 
 			// Setear la posición
-			QCARUtils::translatePoseMatrix(vectorHitDone[i]->getPosicionX(),vectorHitDone[i]->getPosicionY(), 0.0f, transformPtr);
+			Utils::translatePoseMatrix(vectorHitDone[i]->getPosicionX(),vectorHitDone[i]->getPosicionY(), 0.0f, transformPtr);
 
 			// Setear la escala
-			QCARUtils::scalePoseMatrix(vectorHitDone[i]->getEscala(), vectorHitDone[i]->getEscala(), 0.0f, transformPtr);
+			Utils::scalePoseMatrix(vectorHitDone[i]->getEscala(), vectorHitDone[i]->getEscala(), 0.0f, transformPtr);
 
 			// Setear la textura a usar
 			glBindTexture(GL_TEXTURE_2D, vectorHitDone[i]->getTextura()->mTextureID);

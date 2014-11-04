@@ -5,7 +5,7 @@
 #include <QCAR/QCAR.h>
 #include <QCAR/Tool.h>
 
-#include "QCARTexture.h"
+#include "Textura.h"
 
 /**
  * Clase que representa un Hit dibujado en pantalla.
@@ -59,7 +59,7 @@ class HitRenderer
 		/**
 		 * Devuelve la textura
 		 */
-		QCARTexture* getTextura();
+		Textura* getTextura();
 
 		/**
 		 * Setea una nueva posición
@@ -84,7 +84,7 @@ class HitRenderer
 		/**
 		 * Asocia una texture al Hit
 		 */
-		void setTextura(QCARTexture* t);
+		void setTextura(Textura* t);
 
 		/**
 		 * Realiza la animación del Hit
@@ -137,7 +137,7 @@ class HitRenderer
 		/**
 		 * Textura del Hit
 		 */
-		QCARTexture* textura;
+		Textura* textura;
 
 		/**
 		 * Posición(x,y) del Hit

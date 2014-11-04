@@ -44,7 +44,7 @@ int HitRenderer::getId()
 	return id;
 }
 
-QCARTexture* HitRenderer::getTextura()
+Textura* HitRenderer::getTextura()
 {
 	return textura;
 }
@@ -70,7 +70,7 @@ void HitRenderer::setId(int newId)
 	id = newId;
 }
 
-void HitRenderer::setTextura(QCARTexture* t)
+void HitRenderer::setTextura(Textura* t)
 {
 	textura = t;
 }

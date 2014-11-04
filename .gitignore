@@ -82,6 +82,7 @@ QCARMath.h
 QCARMath.cpp
 QCAR-46b237e7f7407f3ce0114b0e0d676f58.jar
 QCARGLView.java
+build/
 
 # built application files
 *.apk
