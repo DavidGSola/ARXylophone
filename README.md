@@ -11,7 +11,7 @@ TFG en el Grado de Ingeniería Informática: ARXylophone, un xilófono basado en
 
 ARXylophone es un juego de corte infantil cuyo fin es permitir a los más pequeños de la casa tocar un xilófono impreso en un papel como si fuese un xilófono real. Utilizando la cámara del dispositivo Android, la aplicación reconocerá que tecla está siendo tocada en el papel impreso y sonará en el smartphone la nota correspondiente.
 
-[![Alt text for your video](http://img.youtube.com/vi/ek6pCrN7s60/0.jpg)](https://www.youtube.com/watch?v=ek6pCrN7s60)
+[![Alt text for your video](http://i.imgur.com/vSriYPy.jpg)](https://www.youtube.com/watch?v=ek6pCrN7s60)
 ## ¿Donde obtener ARXylophone?
 
 La aplicación ha sido subida al mercado de aplicaciones propio del sistema
