@@ -1,2 +1,0 @@
-set solib-search-path ./obj/local/armeabi-v7a
-directory C:/Users/DavidGSola/Documents/Facultad/Eclipse/android-ndk-r9-windows-x86_64/android-ndk-r9/platforms/android-8/arch-arm/usr/include C:/Users/DavidGSola/Documents/Facultad/Eclipse/android-ndk-r9-windows-x86_64/android-ndk-r9/sources/cxx-stl/stlport/stlport C:/Users/DavidGSola/Documents/Facultad/Eclipse/android-ndk-r9-windows-x86_64/android-ndk-r9/sources/cxx-stl//gabi++/include jni/../../../build/include
